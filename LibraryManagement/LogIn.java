@@ -28,7 +28,7 @@ public class LogIn extends JFrame {
     	
     	Class.forName("com.mysql.cj.jdbc.Driver");
     	
-    	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/LibraryManagement","root","");
+    	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/LibraryManagement","root","hoshi060222");
     	System.out.println("connection oki");
     	
     	
